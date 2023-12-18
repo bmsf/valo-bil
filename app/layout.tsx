@@ -45,8 +45,8 @@ export default function RootLayout({
 							<Link
 								isExternal
 								className='flex items-center gap-1 text-current'
-								href='https://nextui-docs-v2.vercel.app?utm_source=next-app-template'
-								title='nextui.org homepage'
+								href='https://portfolio-bmsf.vercel.app/'
+								title='BMSF - portfolio'
 							>
 								<span className='text-default-600'>Laget av</span>
 								<p className='text-secondary-foreground'>BMSF</p>

@@ -9,7 +9,11 @@ module.exports = {
 		'./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			gridTemplateColumns: {
+				fluid: 'repeat(auto-fit, minmax(20rem,2fr))',
+			},
+		},
 	},
 	darkMode: 'class',
 	plugins: [
@@ -18,8 +22,8 @@ module.exports = {
 				dark: {
 					colors: {
 						primary: {
+							foreground: '#9ba0b3',
 							DEFAULT: '#16181D',
-							foreground: '#F4F1D0',
 						},
 
 						background: '#0F0F14',

@@ -3,12 +3,12 @@ import React from 'react';
 
 export default function FilterContainer() {
 	return (
-		<div className='bg-primary w-full rounded-md mt-12 flex p-6 justify-around'>
-			<Button className='bg-primary text-2xl uppercase'>Alle</Button>
-			<Button className='bg-primary text-2xl uppercase'>Tesla</Button>
-			<Button className='bg-primary text-2xl uppercase'>Kia</Button>
-			<Button className='bg-primary text-2xl uppercase'>Bmw</Button>
-			<Button className='bg-primary text-2xl uppercase'>Audi</Button>
+		<div className='bg-primary w-full rounded-md mt-12 flex p-3 justify-around'>
+			<Button className='bg-primary text-xl uppercase'>Alle</Button>
+			<Button className='bg-primary text-xl uppercase'>Tesla</Button>
+			<Button className='bg-primary text-xl uppercase'>Kia</Button>
+			<Button className='bg-primary text-xl uppercase'>Bmw</Button>
+			<Button className='bg-primary text-xl uppercase'>Audi</Button>
 		</div>
 	);
 }

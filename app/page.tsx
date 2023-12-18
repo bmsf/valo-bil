@@ -6,6 +6,7 @@ import { siteConfig } from '@/config/site';
 import { title, subtitle } from '@/components/primitives';
 import TextAnimation from '@/components/text-animation';
 import FilterContainer from '@/components/filter-container';
+import GridContainer from '@/components/grid-container';
 
 export default function Home() {
 	return (
@@ -44,7 +45,7 @@ export default function Home() {
 			</div>
 			<TextAnimation />
 			<FilterContainer />
-			
+			<GridContainer />
 		</section>
 	);
 }
