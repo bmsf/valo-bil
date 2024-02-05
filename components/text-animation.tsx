@@ -21,7 +21,7 @@ export default function TextAnimation() {
 	}, []);
 
 	return (
-		<div className='mt-8 flex items-center justify-center overflow-hidden relative w-[95%] h-[1.5em]'>
+		<div className='mt-8 flex items-center justify-center overflow-hidden relative w-[95%] h-[3em] md:h-[1.5em]'>
 			<AnimatePresence>
 				<motion.span
 					key={index}
